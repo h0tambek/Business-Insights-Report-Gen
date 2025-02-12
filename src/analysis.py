@@ -132,6 +132,8 @@ def save_report(insights):
 
 
 if __name__ == "__main__":
+    if not os.path.exists("data"):
+        os.makedirs("data")
     data_file = "data/products.csv"
 
     # Generate the CSV file if not there already
