@@ -16,4 +16,4 @@ env/
 report.md
 
 # Data files
-data/*.csv
+*.csv
